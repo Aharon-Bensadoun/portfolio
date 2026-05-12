@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Réalisations",
+    "approach": "Méthode",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "AI Solutions Architect",
+    "title_a": "Je construis les",
+    "title_b": "systèmes IA",
+    "title_c": "que les entreprises mettent réellement en production.",
+    "subtitle": "J'architecture, j'intègre et j'opère des plateformes IA en production — d'une passerelle unifiée qui route entre fournisseurs jusqu'à des applications verticales en santé, e-commerce et entreprise. De bout en bout, en prod, avec la méthodologie qui va avec.",
+    "cta_primary": "Voir mes réalisations",
+    "cta_secondary": "Me contacter",
+    "stat_projects": "Systèmes en production",
+    "stat_domains": "Secteurs (santé, commerce, ops, religieux)",
+    "stat_stack": "Fournisseurs IA intégrés"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Un intégrateur, pas un consultant PowerPoint.",
+    "p1": "Je suis Aharon Bensadoun, AI Solutions Architect. J'aide les organisations à passer de « il faudrait faire quelque chose avec l'IA » à des systèmes en production utilisés par de vrais utilisateurs — sans le théâtre du conseil.",
+    "p2": "Mes projets vont d'hôpitaux qui matchent des patients à des essais cliniques oncologiques, à des SaaS dentaires qui font de la radiologie IA, des marketplaces avec catalogues générés par IA, ou ma passerelle IA interne (AI Nexus) qui route entre Azure OpenAI, AWS Bedrock, Whisper et Gemini pour un usage entreprise gouverné.",
+    "p3": "J'écris le code, je déploie l'infra, et je reste sur le pont jusqu'à ce que ça fonctionne.",
+    "tag_role": "Solutions Architect",
+    "tag_focus": "Intégration IA",
+    "tag_methodology": "Livraison hands-on",
+    "video_caption": "Courte intro — ce que je fais et comment je travaille."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Comment j'aide à adopter l'IA.",
+    "subtitle": "Quatre façons de m'intégrer à ton organisation. Choisis-en une ou empile-les.",
+    "items": {
+      "gateway": {
+        "title": "Architecture de Gateway IA",
+        "desc": "Une API unifiée pour tout ton IA : routage entre fournisseurs, fallback, streaming, auth, quotas, audit. Le pattern que j'ai construit comme « AI Nexus » — adapté à ta stack."
+      },
+      "integration": {
+        "title": "Intégration IA sur mesure",
+        "desc": "Encastre l'IA dans tes systèmes existants (ERP, EHR, CRM, e-commerce). Screening patient, analyse documentaire, transcription vocale, génération d'image — branchés dans de vrais workflows."
+      },
+      "methodology": {
+        "title": "Adoption de méthodologie IA",
+        "desc": "J'aide ton équipe à passer du bricolage de prompts à l'ingénierie : evals, prompts versionnés, observabilité, contrôle des coûts, et un rythme de livraison qui livre vraiment."
+      },
+      "fullstack": {
+        "title": "Build produit end-to-end",
+        "desc": "De zéro à produit déployé : backends .NET / Node, frontends React, PostgreSQL, cloud (Azure/AWS/GCP), CI/CD, monitoring. AI-native par défaut."
+      }
+    }
+  },
+  "approach": {
+    "eyebrow": "Méthode",
+    "title": "Comment je travaille.",
+    "items": {
+      "1": {
+        "title": "Diagnostiquer, pas pitcher",
+        "desc": "Je commence par cartographier où l'IA bouge réellement les chiffres de ton business — pas où elle fait une jolie démo."
+      },
+      "2": {
+        "title": "Livrer petit, vite, réel",
+        "desc": "Première tranche en production en semaines, pas en trimestres. Vrais utilisateurs, vraies données, résultats mesurés."
+      },
+      "3": {
+        "title": "Gouverner dès le jour 1",
+        "desc": "Auth, logs d'audit, secrets chiffrés, fallbacks, monitoring des coûts. L'IA en production exige une discipline de production."
+      },
+      "4": {
+        "title": "Transférer la connaissance",
+        "desc": "Ton équipe reprend la main. Je documente, je forme, je me retire — la mission se termine quand tu n'as plus besoin de moi."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Réalisations",
+    "title": "Des systèmes IA en production, de vrais utilisateurs.",
+    "subtitle": "Un échantillon de ce que j'ai construit. Chaque projet livré en production avec auth, monitoring, et des utilisateurs payants ou institutionnels.",
+    "filters": {
+      "all": "Tout",
+      "ai_platform": "Plateformes IA",
+      "healthcare": "Santé",
+      "ecommerce": "Commerce",
+      "tools": "Outils",
+      "religious": "Tech religieuse"
+    },
+    "view_repo": "Voir le repository",
+    "view_demo": "Démo live",
+    "highlight": "Projet phare"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Parlons de ta roadmap IA.",
+    "subtitle": "Que tu cadres un premier pilote IA ou que tu scales un système existant — choisis un canal.",
+    "email": "Email",
+    "email_value": "bensadounaharon@gmail.com",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "response_note": "Réponse généralement sous 24h."
+  },
+  "footer": {
+    "tagline": "AI Solutions Architect - je construis des systèmes IA en production.",
+    "rights": "Tous droits réservés.",
+    "github": "GitHub",
+    "source": "Source"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français",
+    "he": "עברית"
+  }
+}

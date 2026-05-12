@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "projects": "Work",
+    "approach": "Approach",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "AI Solutions Architect",
+    "title_a": "I build the",
+    "title_b": "AI systems",
+    "title_c": "companies actually ship.",
+    "subtitle": "I architect, integrate, and operate production AI platforms — from unified gateways routing across providers to vertical apps in healthcare, commerce, and enterprise. End-to-end, in production, with the methodology to back it.",
+    "cta_primary": "See selected work",
+    "cta_secondary": "Get in touch",
+    "stat_projects": "Production systems shipped",
+    "stat_domains": "Verticals (health, commerce, ops, religious)",
+    "stat_stack": "AI providers integrated"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "An integrator, not a slide deck.",
+    "p1": "I'm Aharon Bensadoun, AI Solutions Architect. I help organizations move from 'we should do something with AI' to live systems serving real users — without the consultancy theater.",
+    "p2": "My work spans hospitals running oncology trial matching, dental SaaS doing AI radiology, marketplaces with AI-generated catalogs, and an internal AI gateway (AI Nexus) routing across Azure OpenAI, AWS Bedrock, Whisper and Gemini for governed enterprise use.",
+    "p3": "I write code, deploy infrastructure, and stay on call until it works.",
+    "tag_role": "Solutions Architect",
+    "tag_focus": "AI Integration",
+    "tag_methodology": "Hands-on Delivery",
+    "video_caption": "Short intro — what I do and how I work."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "How I help companies adopt AI.",
+    "subtitle": "Four ways I plug into your org. Pick one or stack them.",
+    "items": {
+      "gateway": {
+        "title": "AI Gateway Architecture",
+        "desc": "One unified API for your AI: provider routing, fallback, streaming, auth, quotas, audit. The pattern I built as 'AI Nexus' — adapted to your stack."
+      },
+      "integration": {
+        "title": "Custom AI Integration",
+        "desc": "Embed AI inside your existing systems (ERP, EHR, CRM, e-commerce). Patient screening, document analysis, voice transcription, image generation — wired into real workflows."
+      },
+      "methodology": {
+        "title": "AI Methodology Adoption",
+        "desc": "Help your team shift from prompt-tinkering to engineering: evals, versioned prompts, observability, cost controls, and a delivery cadence that ships."
+      },
+      "fullstack": {
+        "title": "End-to-end Product Build",
+        "desc": "From zero to deployed product: .NET / Node backends, React frontends, PostgreSQL, cloud (Azure/AWS/GCP), CI/CD, monitoring. AI-native by default."
+      }
+    }
+  },
+  "approach": {
+    "eyebrow": "Approach",
+    "title": "How I work.",
+    "items": {
+      "1": {
+        "title": "Diagnose, don't pitch",
+        "desc": "I start by mapping where AI realistically moves the needle in your business — not where it makes a nice demo."
+      },
+      "2": {
+        "title": "Ship small, fast, real",
+        "desc": "First production slice in weeks, not quarters. Real users, real data, measured outcomes."
+      },
+      "3": {
+        "title": "Govern from day one",
+        "desc": "Auth, audit logs, encrypted secrets, fallbacks, cost monitoring. Production AI requires production discipline."
+      },
+      "4": {
+        "title": "Transfer the knowledge",
+        "desc": "Your team takes the wheel. I document, train, and step back — engagement ends when you don't need me."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Selected Work",
+    "title": "Production AI systems, real users.",
+    "subtitle": "A subset of what I've built. Each shipped to production with auth, monitoring, and paying or institutional users.",
+    "filters": {
+      "all": "All",
+      "ai_platform": "AI Platforms",
+      "healthcare": "Healthcare",
+      "ecommerce": "Commerce",
+      "tools": "Tools",
+      "religious": "Religious tech"
+    },
+    "view_repo": "View repository",
+    "view_demo": "Live demo",
+    "highlight": "Highlight"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your AI roadmap.",
+    "subtitle": "Whether you're scoping a first AI pilot or scaling an existing system — pick a channel.",
+    "email": "Email",
+    "email_value": "bensadounaharon@gmail.com",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "response_note": "Usually replies within 24h."
+  },
+  "footer": {
+    "tagline": "AI Solutions Architect - building production AI systems.",
+    "rights": "All rights reserved.",
+    "github": "GitHub",
+    "source": "Source"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français",
+    "he": "עברית"
+  }
+}
