@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
     ],
     repoUrl: 'https://github.com/Aharon-Bensadoun/EvaMedicalAI',
     demoUrl: 'https://www.evamedical.ai',
-    videoUrl: 'https://vimeo.com/1202419817',
+    videoUrl: 'https://vimeo.com/1202610308',
   },
   {
     slug: 'judayka',
