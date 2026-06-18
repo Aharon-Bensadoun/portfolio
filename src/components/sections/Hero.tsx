@@ -61,7 +61,7 @@ export const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           className="mt-8 flex flex-wrap items-center gap-3"
         >
-          <a href="#projects" className="btn-primary">
+          <a href="#demos" className="btn-primary">
             {t('hero.cta_primary')}
             <ArrowRight size={16} strokeWidth={2.5} className="rtl:rotate-180" />
           </a>

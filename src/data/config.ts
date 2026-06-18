@@ -12,8 +12,7 @@ export const SITE_CONFIG = {
   // Optional: place a video file at public/intro.mp4 or use a YouTube embed URL.
   // If unset, the About section shows an animated placeholder.
   introVideo: null as string | null,
-  // Optional: place a square photo at public/avatar.jpg
-  avatar: null as string | null,
+  avatar: `${import.meta.env.BASE_URL}Aharon%20Bensadoun%20Profile%20Photo.png`,
 }
 
 export const getWhatsAppLink = (text?: string): string => {

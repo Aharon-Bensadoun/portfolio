@@ -1,8 +1,10 @@
+import { forwardRef } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { ArrowUpRight, ExternalLink, Github, Star } from 'lucide-react'
-import type { Project } from '../../data/projects'
+import { ArrowUpRight, ExternalLink, Github, Play, Star } from 'lucide-react'
+import { showRepoButton, type Project } from '../../data/projects'
 import type { Lang } from '../../i18n/config'
+import { DeploymentStatusBadge } from './DeploymentStatusBadge'
 
 const ACCENT_GRADIENTS: Record<NonNullable<Project['accent']>, string> = {
   cyan: 'from-accent-cyan/30 via-accent-cyan/10 to-transparent',
@@ -20,20 +22,22 @@ const ACCENT_DOTS: Record<NonNullable<Project['accent']>, string> = {
   emerald: 'bg-emerald-400',
 }
 
-export const ProjectCard = ({ project, index }: { project: Project; index: number }) => {
+export const ProjectCard = forwardRef<HTMLElement, { project: Project; index: number }>(
+  ({ project, index }, ref) => {
   const { t, i18n } = useTranslation()
   const lang = (i18n.resolvedLanguage ?? 'en') as Lang
   const accent = project.accent ?? 'cyan'
 
   return (
     <motion.article
+      ref={ref}
       layout
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-60px' }}
       transition={{ duration: 0.55, delay: Math.min(index * 0.04, 0.3), ease: [0.16, 1, 0.3, 1] }}
       className={`group relative card overflow-hidden p-6 sm:p-7 flex flex-col ${
-        project.highlight ? 'md:col-span-2' : ''
+        project.highlight || project.wide ? 'md:col-span-2' : ''
       }`}
     >
       <div
@@ -52,6 +56,9 @@ export const ProjectCard = ({ project, index }: { project: Project; index: numbe
               <Star size={10} strokeWidth={2.5} className="text-accent-cyan" />
               {t('projects.highlight')}
             </span>
+          )}
+          {project.deploymentStatus && (
+            <DeploymentStatusBadge status={project.deploymentStatus} />
           )}
         </div>
       </header>
@@ -88,7 +95,7 @@ export const ProjectCard = ({ project, index }: { project: Project; index: numbe
       </div>
 
       <footer className="relative mt-6 pt-5 border-t border-line-subtle flex items-center justify-between gap-3">
-        {project.repoUrl ? (
+        {project.repoUrl && showRepoButton(project.slug) ? (
           <a
             href={project.repoUrl}
             target="_blank"
@@ -111,6 +118,14 @@ export const ProjectCard = ({ project, index }: { project: Project; index: numbe
             <span>{t('projects.view_demo')}</span>
             <ExternalLink size={13} strokeWidth={2.25} />
           </a>
+        ) : project.videoUrl ? (
+          <a
+            href="#demos"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent-cyan hover:text-accent-cyan/80 transition-colors cursor-pointer"
+          >
+            <Play size={13} strokeWidth={2.25} />
+            <span>{t('projects.watch_video')}</span>
+          </a>
         ) : (
           <ArrowUpRight
             size={18}
@@ -121,4 +136,7 @@ export const ProjectCard = ({ project, index }: { project: Project; index: numbe
       </footer>
     </motion.article>
   )
-}
+},
+)
+
+ProjectCard.displayName = 'ProjectCard'

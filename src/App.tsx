@@ -4,6 +4,7 @@ import { Hero } from './components/sections/Hero'
 import { About } from './components/sections/About'
 import { Services } from './components/sections/Services'
 import { Approach } from './components/sections/Approach'
+import { FeaturedDemos } from './components/sections/FeaturedDemos'
 import { Projects } from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
 
@@ -21,6 +22,7 @@ export const App = () => (
       <About />
       <Services />
       <Approach />
+      <FeaturedDemos />
       <Projects />
       <Contact />
     </main>

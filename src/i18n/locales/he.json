@@ -4,6 +4,7 @@
     "services": "שירותים",
     "projects": "פרויקטים",
     "approach": "גישה",
+    "demos": "דמוים",
     "contact": "צור קשר"
   },
   "hero": {
@@ -12,7 +13,7 @@
     "title_b": "מערכות ה-AI",
     "title_c": "שחברות באמת מעבירות לפרודקשן.",
     "subtitle": "אני מארכטט, משלב ומפעיל פלטפורמות AI בפרודקשן — מ-Gateway אחיד שמנתב בין ספקים ועד אפליקציות אנכיות בבריאות, מסחר וארגונים. מקצה לקצה, בייצור, עם המתודולוגיה שתומכת בזה.",
-    "cta_primary": "ראה עבודות נבחרות",
+    "cta_primary": "צפה בדמוים",
     "cta_secondary": "יצירת קשר",
     "stat_projects": "מערכות בפרודקשן",
     "stat_domains": "תחומים (בריאות, מסחר, ops, דת)",
@@ -74,6 +75,12 @@
       }
     }
   },
+  "demos": {
+    "eyebrow": "דמוי מוצר",
+    "title": "המערכות בפעולה.",
+    "subtitle": "ארבע אפליקציות דגל — AI Nexus, Eva Medical AI, OncoMatch ו-Koli — עם סרטוני הדגמה כדי להעריך את הפורטפוליו בלי מפגש חי.",
+    "video_label": "דמו וידאו"
+  },
   "projects": {
     "eyebrow": "עבודות נבחרות",
     "title": "מערכות AI בפרודקשן, משתמשים אמיתיים.",
@@ -88,7 +95,11 @@
     },
     "view_repo": "צפה ב-repository",
     "view_demo": "דמו חי",
-    "highlight": "פרויקט בולט"
+    "watch_video": "צפה בדמו",
+    "highlight": "פרויקט בולט",
+    "status_production_public": "באוויר",
+    "status_production_client": "בפרודקשן",
+    "status_in_development": "בפיתוח"
   },
   "contact": {
     "eyebrow": "צור קשר",

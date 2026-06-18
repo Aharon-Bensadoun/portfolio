@@ -31,10 +31,13 @@ export const About = () => {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="lg:col-span-2 lg:sticky lg:top-24"
         >
-          <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-br from-accent-cyan/20 via-accent-violet/15 to-transparent rounded-3xl blur-2xl" aria-hidden="true" />
-            <div className="relative card overflow-hidden aspect-[4/5]">
-              {SITE_CONFIG.introVideo ? (
+          {SITE_CONFIG.introVideo ? (
+            <div className="relative">
+              <div
+                className="absolute -inset-4 bg-gradient-to-br from-accent-cyan/20 via-accent-violet/15 to-transparent rounded-3xl blur-2xl"
+                aria-hidden="true"
+              />
+              <div className="relative card overflow-hidden aspect-[4/5]">
                 <video
                   src={SITE_CONFIG.introVideo}
                   className="h-full w-full object-cover"
@@ -42,23 +45,42 @@ export const About = () => {
                   preload="metadata"
                   playsInline
                 />
-              ) : SITE_CONFIG.avatar ? (
-                <img
-                  src={SITE_CONFIG.avatar}
-                  alt={t('about.title')}
-                  className="h-full w-full object-cover"
-                  loading="lazy"
-                />
-              ) : (
-                <PlaceholderPortrait />
-              )}
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg/90 via-bg/30 to-transparent p-5">
-                <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-muted">
-                  // {t('about.video_caption')}
-                </p>
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg/90 via-bg/30 to-transparent p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-muted">
+                    // {t('about.video_caption')}
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          ) : SITE_CONFIG.avatar ? (
+            <div className="relative flex flex-col items-center lg:items-end">
+              <div
+                className="absolute left-1/2 top-0 h-56 w-56 sm:h-64 sm:w-64 lg:h-72 lg:w-72 -translate-x-1/2 rounded-full bg-gradient-to-br from-accent-cyan/25 via-accent-violet/20 to-transparent blur-2xl lg:left-auto lg:right-0 lg:translate-x-0"
+                aria-hidden="true"
+              />
+              <div className="relative h-56 w-56 sm:h-64 sm:w-64 lg:h-72 lg:w-72 shrink-0 overflow-hidden rounded-full border border-line/60 shadow-card">
+                <img
+                  src={SITE_CONFIG.avatar}
+                  alt={SITE_CONFIG.name}
+                  className="h-full w-full object-cover object-[center_20%]"
+                  loading="lazy"
+                />
+              </div>
+              <p className="relative mt-5 font-mono text-[10px] uppercase tracking-[0.22em] text-ink-muted text-center lg:text-right">
+                // {SITE_CONFIG.role}
+              </p>
+            </div>
+          ) : (
+            <div className="relative">
+              <div
+                className="absolute -inset-4 bg-gradient-to-br from-accent-cyan/20 via-accent-violet/15 to-transparent rounded-3xl blur-2xl"
+                aria-hidden="true"
+              />
+              <div className="relative card overflow-hidden aspect-[4/5]">
+                <PlaceholderPortrait />
+              </div>
+            </div>
+          )}
         </motion.div>
       </div>
     </Section>

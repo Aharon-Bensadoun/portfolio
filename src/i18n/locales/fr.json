@@ -4,6 +4,7 @@
     "services": "Services",
     "projects": "Réalisations",
     "approach": "Méthode",
+    "demos": "Démos",
     "contact": "Contact"
   },
   "hero": {
@@ -12,7 +13,7 @@
     "title_b": "systèmes IA",
     "title_c": "que les entreprises mettent réellement en production.",
     "subtitle": "J'architecture, j'intègre et j'opère des plateformes IA en production — d'une passerelle unifiée qui route entre fournisseurs jusqu'à des applications verticales en santé, e-commerce et entreprise. De bout en bout, en prod, avec la méthodologie qui va avec.",
-    "cta_primary": "Voir mes réalisations",
+    "cta_primary": "Voir les démos",
     "cta_secondary": "Me contacter",
     "stat_projects": "Systèmes en production",
     "stat_domains": "Secteurs (santé, commerce, ops, religieux)",
@@ -74,6 +75,12 @@
       }
     }
   },
+  "demos": {
+    "eyebrow": "Démos produit",
+    "title": "Les systèmes en action.",
+    "subtitle": "Quatre applications phares — AI Nexus, Eva Medical AI, OncoMatch et Koli — avec des vidéos de démonstration pour évaluer le portfolio sans session live.",
+    "video_label": "Démo vidéo"
+  },
   "projects": {
     "eyebrow": "Réalisations",
     "title": "Des systèmes IA en production, de vrais utilisateurs.",
@@ -88,7 +95,11 @@
     },
     "view_repo": "Voir le repository",
     "view_demo": "Démo live",
-    "highlight": "Projet phare"
+    "watch_video": "Voir la démo",
+    "highlight": "Projet phare",
+    "status_production_public": "En ligne",
+    "status_production_client": "En production",
+    "status_in_development": "En développement"
   },
   "contact": {
     "eyebrow": "Contact",

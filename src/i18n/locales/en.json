@@ -4,6 +4,7 @@
     "services": "Services",
     "projects": "Work",
     "approach": "Approach",
+    "demos": "Demos",
     "contact": "Contact"
   },
   "hero": {
@@ -12,7 +13,7 @@
     "title_b": "AI systems",
     "title_c": "companies actually ship.",
     "subtitle": "I architect, integrate, and operate production AI platforms — from unified gateways routing across providers to vertical apps in healthcare, commerce, and enterprise. End-to-end, in production, with the methodology to back it.",
-    "cta_primary": "See selected work",
+    "cta_primary": "Watch the demos",
     "cta_secondary": "Get in touch",
     "stat_projects": "Production systems shipped",
     "stat_domains": "Verticals (health, commerce, ops, religious)",
@@ -74,6 +75,12 @@
       }
     }
   },
+  "demos": {
+    "eyebrow": "Product demos",
+    "title": "See the systems in action.",
+    "subtitle": "Four flagship applications — AI Nexus, Eva Medical AI, OncoMatch, and Koli — with walkthrough videos so you can evaluate the portfolio without a live session.",
+    "video_label": "Video demo"
+  },
   "projects": {
     "eyebrow": "Selected Work",
     "title": "Production AI systems, real users.",
@@ -88,7 +95,11 @@
     },
     "view_repo": "View repository",
     "view_demo": "Live demo",
-    "highlight": "Highlight"
+    "watch_video": "Watch demo",
+    "highlight": "Highlight",
+    "status_production_public": "Live",
+    "status_production_client": "In production",
+    "status_in_development": "In development"
   },
   "contact": {
     "eyebrow": "Contact",
