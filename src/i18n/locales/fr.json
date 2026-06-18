@@ -117,6 +117,10 @@
     "github": "GitHub",
     "source": "Source"
   },
+  "scroll": {
+    "toBottom": "Aller en bas de page",
+    "toTop": "Remonter en haut de page"
+  },
   "lang": {
     "en": "English",
     "fr": "Français",

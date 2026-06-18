@@ -138,7 +138,7 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: 'careflow',
-    name: 'CareFlow (HadassahLeads)',
+    name: 'CareFlow',
     category: 'healthcare',
     accent: 'cyan',
     deploymentStatus: 'production_client',

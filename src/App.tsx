@@ -7,6 +7,7 @@ import { Approach } from './components/sections/Approach'
 import { FeaturedDemos } from './components/sections/FeaturedDemos'
 import { Projects } from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
+import { ScrollToEdge } from './components/ui/ScrollToEdge'
 
 export const App = () => (
   <>
@@ -27,5 +28,6 @@ export const App = () => (
       <Contact />
     </main>
     <Footer />
+    <ScrollToEdge />
   </>
 )
