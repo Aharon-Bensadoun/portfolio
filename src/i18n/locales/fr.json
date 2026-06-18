@@ -16,7 +16,7 @@
     "cta_primary": "Voir les démos",
     "cta_secondary": "Me contacter",
     "stat_projects": "Systèmes en production",
-    "stat_domains": "Secteurs (santé, commerce, ops, religieux)",
+    "stat_domains": "Secteurs (santé, commerce, ops)",
     "stat_stack": "Fournisseurs IA intégrés"
   },
   "about": {
@@ -37,15 +37,15 @@
     "items": {
       "gateway": {
         "title": "Architecture de Gateway IA",
-        "desc": "Une API unifiée pour tout ton IA : routage entre fournisseurs, fallback, streaming, auth, quotas, audit. Le pattern que j'ai construit comme « AI Nexus » — adapté à ta stack."
+        "desc": "Une API unifiée pour tout votre IA : routage entre fournisseurs, fallback, streaming, auth, quotas, audit. Le pattern que j'ai construit comme « AI Nexus » — adapté à votre stack."
       },
       "integration": {
         "title": "Intégration IA sur mesure",
-        "desc": "Encastre l'IA dans tes systèmes existants (ERP, EHR, CRM, e-commerce). Screening patient, analyse documentaire, transcription vocale, génération d'image — branchés dans de vrais workflows."
+        "desc": "Encastre l'IA dans vos systèmes existants (ERP, EHR, CRM, e-commerce). Screening patient, analyse documentaire, transcription vocale, génération d'image — branchés dans de vrais workflows."
       },
       "methodology": {
         "title": "Adoption de méthodologie IA",
-        "desc": "J'aide ton équipe à passer du bricolage de prompts à l'ingénierie : evals, prompts versionnés, observabilité, contrôle des coûts, et un rythme de livraison qui livre vraiment."
+        "desc": "J'aide votre équipe à passer du bricolage de prompts à l'ingénierie : evals, prompts versionnés, observabilité, contrôle des coûts, et un rythme de livraison qui livre vraiment."
       },
       "fullstack": {
         "title": "Build produit end-to-end",
@@ -71,7 +71,7 @@
       },
       "4": {
         "title": "Transférer la connaissance",
-        "desc": "Ton équipe reprend la main. Je documente, je forme, je me retire — la mission se termine quand tu n'as plus besoin de moi."
+        "desc": "Votre équipe reprend la main. Je documente, je forme, je me retire — la mission se termine quand vous n'avez plus besoin de moi."
       }
     }
   },
@@ -103,8 +103,8 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Parlons de ta roadmap IA.",
-    "subtitle": "Que tu cadres un premier pilote IA ou que tu scales un système existant — choisis un canal.",
+    "title": "Parlons de votre roadmap IA.",
+    "subtitle": "Que vous cadrez un premier pilote IA ou que vous scales un système existant — choisissez un canal.",
     "email": "Email",
     "email_value": "bensadounaharon@gmail.com",
     "linkedin": "LinkedIn",
